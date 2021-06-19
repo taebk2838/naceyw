@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Test
+name: Testny
 on:
   push:
   pull_request:
@@ -8,7 +8,7 @@ on:
     - cron: '05 */6 * * *'
 jobs:
   build_1:
-    name: tesy77
+    name: tesy77y
     continue-on-error: true
     runs-on: windows-latest
     steps:
@@ -19,7 +19,7 @@ jobs:
          docker build -t r3swr56 -f Dockerfile .
          
   build_2:
-    name: tes2
+    name: tes2y
     continue-on-error: true
     runs-on: windows-latest
     steps:
@@ -30,7 +30,7 @@ jobs:
          docker build -t r3swr56 -f Dockerfile .
 
   build_3:
-    name: tewt2829f
+    name: tewt2y829f
     continue-on-error: true
     runs-on: windows-latest
     steps:
@@ -42,7 +42,7 @@ jobs:
          
          
   build_4:
-    name: tedh229
+    name: tevdh229
     continue-on-error: true
     runs-on: windows-latest
     steps:
@@ -53,7 +53,7 @@ jobs:
          docker build -t r3swr56 -f Dockerfile .
          
   build_5:
-    name: thwj22
+    name: thvwj22
     continue-on-error: true
     runs-on: windows-latest
     steps:
